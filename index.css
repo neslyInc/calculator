@@ -1,22 +1,37 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 0;
-    margin: 0;
     text-align: center;
-    
+    background-color: rgba(148, 94, 94, 0.356);
+}
+
+.calculator {
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.171);
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px; 
 }
 
 span {
     border-bottom: 2px solid black;
-    padding: 4px;
+    padding: 5px;
+
 }
+
 
 button {
     margin: 20px 0;
-    background-color: gray;
-    color: white;
-    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.226);
+    color: rgba(0, 0, 0, 0.897);
+    border: 1px solid rgba(0, 0, 0, 0);
     font-weight: bold;
     cursor: pointer;
-    padding: 5px 8px;
+    padding: 10px 15px;
+    margin-top: 100px;
 }
